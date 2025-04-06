@@ -6,10 +6,15 @@ body {
     margin: 20px;
 }
 
+#main-div{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
 
 
-#tex{
-    color: aqua;
+#H1{
+    font-size: 100px;
 }
 
 

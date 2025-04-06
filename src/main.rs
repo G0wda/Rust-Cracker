@@ -1,4 +1,4 @@
-use components::TextField::TextField;
+use components::Field::TextField;
 use dioxus::prelude::*;
 mod components;
 
@@ -12,15 +12,15 @@ fn main() {
 #[component]
 fn App() -> Element {
     rsx! {
-       
         Hero {}
-
     }
 }
 
 #[component]
 pub fn Hero() -> Element {
     rsx! {
-        TextField{}
+        div { id:"main-div",
+            TextField{}
+         }
     }
 }
