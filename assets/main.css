@@ -4,17 +4,35 @@ body {
     color: #ffffff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 20px;
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
 }
 
 #main-div{
-    display: flex;
-    align-content: center;
-    justify-content: center;
+    display: grid;
+    align-content: space-evenly;
+    justify-items: center;
+    
 }
 
 
 #H1{
     font-size: 100px;
+}
+
+#inp{
+    width: 250px;
+    height: 25px;
+    border: none;
+    outline:none;
+}
+
+#btn{
+    width: 150px;
+    padding: 4px;
+    align-content: space-between;
+
 }
 
 
