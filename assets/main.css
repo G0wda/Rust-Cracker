@@ -11,8 +11,10 @@ body {
 
 #main-div{
     display: grid;
+    grid-column: auto;
     align-content: space-evenly;
     justify-items: center;
+    gap: 40px;
     
 }
 
@@ -21,12 +23,17 @@ body {
     font-size: 100px;
 }
 
-#inp{
-    width: 250px;
-    height: 25px;
-    border: none;
-    outline:none;
+#inp {
+    width: 450px;
+    height: 35px;
+    border: none; /* Remove all borders */
+    border-bottom: 2px solid #ffffff; /* Add only bottom border */
+    outline: none; /* Remove outline */
+    border-radius: 0; /* Optional: remove rounded corners */
+    background-color: transparent; 
+    color: #ffffff;
 }
+
 
 #btn{
     width: 150px;
